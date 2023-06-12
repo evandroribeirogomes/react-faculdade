@@ -1,0 +1,57 @@
+/* Home.css */
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    
+    border-radius: 5px;
+
+}
+
+.menu li {
+    margin: 10px 0;
+    background-color: #0942ac;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #211a23;
+    transition: border-color 0.3s ease-in-out;
+    color: #f6ebeb;
+}
+
+.menu li a:hover {
+    border-color: #708ef1;
+}
+
+@media screen and (max-width: 600px) {
+    .menu li {
+        margin: 10px 0;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+}
+.container h1 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-bottom: 20px; /* Adiciona margem inferior */
+    font-family:sans-serif;
+    font-size: 50px;
+    color: aqua;
+    
+    
+}
+
+body{
+    background-color: rgb(42, 39, 45);
+}
+
+

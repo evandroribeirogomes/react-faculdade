@@ -15,7 +15,7 @@ function Relogio() {
 
   return (
     <div>
-      <h3>{time}</h3>
+      <h3 class='let'>{time}</h3>
     </div>
   );
 }

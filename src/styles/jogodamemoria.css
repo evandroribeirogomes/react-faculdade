@@ -1,0 +1,109 @@
+.app {
+    text-align: center;
+    margin: 20px;
+    background:linear-gradient(	#4682B4, #191970, #008080)
+    
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .score {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    perspective: 600px;
+  }
+  
+  .card .card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .card.flipped .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card .card-front,
+  .card .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card .card-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0;
+    color: #000;
+    font-size: 32px;
+  }
+  
+  .card .card-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 32px;
+  }
+  
+  .completed {
+    background-color: #4caf50 !important;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .controls label {
+    margin-right: 10px;
+  }
+  
+  .controls select {
+    margin-right: 10px;
+  }
+  
+  .buttonjm {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #110366;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d8af2;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .select{
+    margin-top: 5px;
+    border-color: #000;
+  }
+
+ 

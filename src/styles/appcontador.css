@@ -1,0 +1,86 @@
+/* Estilização para a seção principal */
+
+  
+
+  h2 {
+    margin: 0;
+    font-size: 36px;
+    color: #f7f4f4;
+    text-align: center;
+  }
+  
+  /* Estilização para os botões e parágrafos */
+  p {
+    margin: 20px 0 10px;
+    font-size: 20px;
+    color: #f3eeee;
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  /* Estilização para os botões de incremento e decremento */
+  button.incremento {
+    background-color: #0dce20;
+    margin-top: 20px;
+  }
+  
+  button.decremento {
+    background-color: #e91e1e;
+  }
+
+  button.reset {
+    background-color: #4e17e7;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    margin-left:100px ;
+  }
+  .tela {
+    border: 1px solid black;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(49, 52, 54);
+    width: 300px;
+    margin-left: 100px;
+}
+
+.totalizador {
+    text-align: center;
+    display:flex;
+    color:aliceblue;
+    margin-bottom: 20px;
+    
+}
+
+.homem {
+    text-align: left;
+}
+
+.mulher {
+    text-align: right;
+}

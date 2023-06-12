@@ -29,7 +29,10 @@ export function Letreiro() {
     }, [])
     
     return (
-        <h1>{text}</h1>
-
+    <div class="let">
+    <h1> {text}</h1>
+    </div>
     )
 }
+
+export default Letreiro;
