@@ -23,64 +23,78 @@ export default function Ativ04() {
             <h1> Atividade 04 </h1>
             <hr/>
             <div><h2>Tollbar</h2>
-              <br></br>
+            <br/>
                 <Tollbar/>
             </div>
             <hr/>
             <div><h2>Buckelist</h2>
+            <br/>
                 <BucketList_04/>
                 </div>
             <hr/>
            <div><h2>button</h2>
+           <br/>
             <Button_04/>
            </div> 
             <hr/>
             <div><h2>Count</h2>
+            <br/>
                 <Count_04/>
             </div>
             <hr/>
             <div><h2>CountrList</h2>
+            <br/>
                 <CounterList/>
             </div>
             <hr/>
             {/* <Data_04/> */}
             <div><h2>Form</h2>
+            <br/>
                 <Form_04/>
             </div>
             <hr/>
             <div><h2>Form2</h2>
+            <br/>
                 <Form2_04/>
             </div>
             <hr/>
             <div><h2>Form3</h2>
+            <br/>
                 <Form3_04/>
             </div>
             <hr/>
             <div><h2>Gallery</h2>
+            <br/>
                 <Gallery_04/>
             </div>
             <hr/>
             <div><h2>List</h2>
+            <br/>
                 <List_04/>
             </div>
             <hr/>
             <div><h2>List2</h2>
+            <br/>
                 <List2_04/>
             </div>
             <hr/>
             <div><h2>list3</h2>
+            <br/>
                 <List3_04/>
             </div>
             <hr/>
             <div><h2>list4</h2>
+            <br/>
                 <List4_04/>
             </div>
             <hr/>
             <div><h2>MovingDot</h2>
+            <br/>
                 <MovingDot_04/>
             </div>
             <hr/>
             <div><h2>ShapeEditor</h2>
+            <br/>
                 <ShapeEditor_04/>
             </div>
             <hr/>
